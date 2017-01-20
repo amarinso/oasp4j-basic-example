@@ -1,14 +1,12 @@
 package eu.anmaso.mysample.helloworld.dataaccess.api;
 
-import javax.persistence.Entity;
-
 import eu.anmaso.mysample.general.dataaccess.api.ApplicationPersistenceEntity;
 import eu.anmaso.mysample.helloworld.common.api.HelloWorld;
 
 /**
  * @author anmas
  */
-@Entity
+// @Entity
 public class HelloWorldEntity extends ApplicationPersistenceEntity implements HelloWorld {
 
   private String name;

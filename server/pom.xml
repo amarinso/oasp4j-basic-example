@@ -117,8 +117,8 @@
         <artifactId>spring-boot-maven-plugin</artifactId>
             <configuration>
               <mainClass>eu.anmaso.mysample.SpringBootApp</mainClass>
-              <!-- 
               <classifier>bootified</classifier>
+              <!-- 
                -->
               <finalName>app</finalName>
             </configuration>
